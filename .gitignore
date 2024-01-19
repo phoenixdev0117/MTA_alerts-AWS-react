@@ -2,3 +2,5 @@
 **/__pycache__/
 .pg_service.conf
 .my_pgpass
+.env
+.DS_Store
