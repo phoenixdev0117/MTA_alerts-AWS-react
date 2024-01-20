@@ -53,7 +53,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "subscribe_to_mta_alerts.urls"
+ROOT_URLCONF = "app.urls"
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "subscribe_to_mta_alerts.wsgi.application"
+WSGI_APPLICATION = "app.wsgi.application"
 
 
 # Database
