@@ -1,92 +1,56 @@
-# Project Overview 
-An application that allows users to subscribe to specific MTA stations or MTA lines and receive service alerts. 
+# Improved README.md
 
-Frontend is built in React and Backend is Django with Django REST Framework. The application uses Auth Tokens for authorization. 
+## Project Overview 
+This application enables users to subscribe to MTA stations or lines to receive timely service alerts.
+
+- **Frontend**: Developed using React.
+- **Backend**: Utilizes Django and Django REST Framework.
+- **Authorization**: Managed through Auth Tokens.
 
 ## Milestones
 
-### [View Kuban for User Stories](https://github.com/users/MackHalliday/projects/3)
+More detailed user stories, view the [Kuban board](https://github.acom/users/MackHalliday/projects/3).
 
+**Current Milestones (As of Jan 24th, 2024):**
 
-*Tentative Milestones as of Jan 24th, 2024*
+- V0: **Basic Project Setup** - Establish the foundational structure.
+- V1: **User Login** - Implement user login functionality.
+- V2: **Station Alert Subscription** - Enable station-specific alert subscriptions.
+- V3: **View Station Alerts** - Users can view alerts from subscribed stations on their dashboard.
+- V4: **Unsubscribe from Station Alerts** - Option to unsubscribe from station alerts via the dashboard.
+- V5: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration.
+- V6: **Line Alert Subscription** - Facilitate subscriptions to specific MTA lines.
+- V7: **Unsubscribe from Line Alerts** - Feature to cancel line-specific alert subscriptions.
+- V8: **Line Alerts via Twilio** - Get line alerts on mobile through Twilio.
+- V9: **Time-Specific Alerts** - Receive alerts within a preferred time window.
+- V10: **Historical Alert Data** - Access to historical alert data.
 
-V0. **Basic Project Setup:** Establish the foundational structure for the project.
+## Tech Overview
 
-V1. **User Login:** Enable users to log into the system.
+### Backend 
 
-V2. **Subscription to Station Alerts:** Allow users to subscribe to alerts from specific stations.
+- **Framework**: Django, Django REST Framework.
+- **Packages**: PIP.
+- **Authentication**: Django Admin, Django REST Framework Auth Tokens, CORS.
+- **Database**: PostgreSQL, Django ORM.
+- **Testing**: Pytest, Locust (Potential for performance testing).
+- **Environment**: Virtual Env, DotEnv.
+- **Typing**: Python Typing.
 
-V3. **View Subscribed Station Alerts:** Users can view their subscribed alerts on their dashboard.
+### Frontend
 
-V4. **Unsubscribe from  Station Alerts:** Users can unsubscribe from alerts directly from their dashboard.
+- **Framework**: React with TypeScript.
+- **CSS Framework**: Tailwind.
+- **Packages**: NPM.
+- **HTTP Client**: ky.
+- **Testing**: Jest.
 
-V5. **Receive Station Alerts via Twilio:** Users can receive alerts on their phone through Twilio integration.
+### Infrastructure 
 
-V6. **Subscription to Specific Line Alerts:** Users can opt to receive alerts from specific lines.
+- **Platforms**: AWS.
+- **Services**: EC2, S3.
 
-V7. **Unsubscribe from Line Alerts:** Users can cancel their subscriptions to specific line alerts.
+### CI/CD
 
-V8. **Receive Line Alerts via Twilio:** Users can get line alerts on their phone through Twilio.
+- **Tools**: GitHub or AWS CodeDeploy.
 
-V9. **Time-Specific Alerts:** Users will receive alerts only within their preferred time window.
-
-V10. **Historical Data of Alerts:** Users may have the option to view the historical data of alerts. 
-
-
-
-
-
-# Tech Overview
-## Backend 
-
-### Framework 
-- Django
-- Django REST Framework 
-
-### Packages 
-- PIP
-
-### Auth
-- Django Admin
-- Django REST Framework Auth Tokens
-- CORS
-
-### Database
-- Postgres
-- Django ORM 
-
-### Testing
-- Pytest
-- Locust (?) for performance testing
-
-### Environment 
-- Virtual Env
-- DotEnv
-
-### Typing
-- Python Typing
-
-## Frontend
-
-### Framework 
-- React with TypeScript
-
-### CSS Framework 
-- Tailwind
-
-### Packages 
-- NPM
-
-### Javascript HTTP Client 
-- ky
-
-### Testing 
-- Jest
-
-## Infrastructure 
-- AWS 
-- EC2
-- S3
-  
-## CI/CD
-- Github or CodeDeploy
