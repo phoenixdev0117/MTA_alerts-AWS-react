@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom"; // Import 'Routes' instead of 'Switch'
+import { Route, Routes } from "react-router-dom";
 import LoginForm from "./components/LoginForm/LoginForm";
 
 function App() {
