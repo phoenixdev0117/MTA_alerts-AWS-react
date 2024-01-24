@@ -10,4 +10,4 @@
 
 ## Frontend 
 - React
-- ky Javascript HTTP client library 
+- ky: Javascript HTTP client library 
