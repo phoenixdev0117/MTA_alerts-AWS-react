@@ -1,8 +1,12 @@
 import ky from "ky";
 const apiUrl = process.env.REACT_APP_API_URL;
 
-const login = async (username, password) => {
-  const response = await ky
+interface LoginResponse {
+  token: string;
+}
+
+const login = async (username:string, password:string) => {
+  const response : LoginResponse = await ky
     .post(`${apiUrl}/api-token-auth/`, {
       json: { username, password },
     })
