@@ -5,9 +5,8 @@ import LoginForm from "./components/LoginForm/LoginForm";
 function App() {
   return (
     <div className="App">
-      <Routes> {/* Use 'Routes' here */}
-        <Route path="/login" element={<LoginForm />} /> {/* Use 'element' prop */}
-        {/* Other routes */}
+      <Routes>
+        <Route path="/login" element={<LoginForm />} />
       </Routes>
     </div>
   );
