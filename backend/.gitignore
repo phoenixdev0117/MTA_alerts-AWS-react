@@ -1,6 +1,10 @@
+# environment config
 venv
+.env 
+
+# misc
+.DS_Store
+.my_pgpass
 **/__pycache__/
 .pg_service.conf
-.my_pgpass
-.env
-.DS_Store
+
