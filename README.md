@@ -11,6 +11,9 @@ Frontend is built in React and Backend is Django with Django REST Framework.
 - Django
 - Django REST Framework 
 
+### Packages 
+- PIP
+
 ### Auth
 - Django Admin
 - Django REST Framework Auth Tokens
@@ -34,7 +37,13 @@ Frontend is built in React and Backend is Django with Django REST Framework.
 ## Frontend
 
 ### Framework 
-- React
+- React with TypeScript
+
+### CSS Framework 
+- Tailwind
+
+### Packages 
+- NPM
 
 ### Javascript HTTP Client 
 - ky
