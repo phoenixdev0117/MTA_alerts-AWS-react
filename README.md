@@ -4,7 +4,11 @@ An application that allows users to subscribe to specific MTA stations or MTA li
 Frontend is built in React and Backend is Django with Django REST Framework. The application uses Auth Tokens for authorization. 
 
 ## Milestones
-Tentative Milestones as of Jan 24th, 2024
+
+### [View Kuban for User Stories](https://github.com/users/MackHalliday/projects/3)
+
+
+*Tentative Milestones as of Jan 24th, 2024*
 
 V0. **Basic Project Setup:** Establish the foundational structure for the project.
 
