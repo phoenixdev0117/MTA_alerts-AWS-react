@@ -11,10 +11,9 @@ function LoginForm() {
     try {
       const response = await authService.login(username, password);
       console.log("Login successful:", response);
-      // Redirect or update state as needed
     } catch (error) {
       console.error("Login failed:", error);
-      // Handle error (e.g., show error message)
+      throw error;
     }
   };
 

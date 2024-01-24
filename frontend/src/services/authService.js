@@ -3,11 +3,12 @@ import ky from "ky";
 const login = async (username, password) => {
   try {
     const response = await ky
-      .post("your_api_endpoint/login", {
+      .post("http://127.0.0.1:8000/api-token-auth/", {
         json: { username, password },
       })
       .json();
-    return response;
+    const token = response.token 
+    console.log(token)
   } catch (error) {
     console.error("Login failed:", error);
     throw error;
