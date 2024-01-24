@@ -3,9 +3,11 @@
 ## Project Overview 
 This application enables users to subscribe to MTA stations or lines to receive timely service alerts.
 
-- **Frontend**: Developed using React
-- **Backend**: Utilizes Django and Django REST Framework
+- **Frontend**: Developed using React with TypeScript
+- **Backend**: Utilizes Django and Django REST Framework with Python Typing
+- **Hosting**: AWS
 - **Authorization**: Managed through Auth Tokens
+- **Third-Party API**: MTA API
 
 ## Milestones
 
