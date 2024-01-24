@@ -6,27 +6,27 @@ Frontend is built in React and Backend is Django with Django REST Framework. The
 ## Milestones
 Tentative Milestones as of Jan 24th, 2024
 
-V1. **Basic Project Setup:** Establish the foundational structure for the project.
+V0. **Basic Project Setup:** Establish the foundational structure for the project.
 
-V2. **User Login:** Enable users to log into the system.
+V1. **User Login:** Enable users to log into the system.
 
-V3. **Subscription to Station Alerts:** Allow users to subscribe to alerts from specific stations.
+V2. **Subscription to Station Alerts:** Allow users to subscribe to alerts from specific stations.
 
-V4. **View Subscribed Station Alerts:** Users can view their subscribed alerts on their dashboard.
+V3. **View Subscribed Station Alerts:** Users can view their subscribed alerts on their dashboard.
 
-V5. **Unsubscribe from  Station Alerts:** Users can unsubscribe from alerts directly from their dashboard.
+V4. **Unsubscribe from  Station Alerts:** Users can unsubscribe from alerts directly from their dashboard.
 
-V6. **Receive Station Alerts via Twilio:** Users can receive alerts on their phone through Twilio integration.
+V5. **Receive Station Alerts via Twilio:** Users can receive alerts on their phone through Twilio integration.
 
-V7. **Subscription to Specific Line Alerts:** Users can opt to receive alerts from specific lines.
+V6. **Subscription to Specific Line Alerts:** Users can opt to receive alerts from specific lines.
 
-V8. **Unsubscribe from Line Alerts:** Users can cancel their subscriptions to specific line alerts.
+V7. **Unsubscribe from Line Alerts:** Users can cancel their subscriptions to specific line alerts.
 
-V9. **Receive Line Alerts via Twilio:** Users can get line alerts on their phone through Twilio.
+V8. **Receive Line Alerts via Twilio:** Users can get line alerts on their phone through Twilio.
 
-V10. **Time-Specific Alerts:** Users will receive alerts only within their preferred time window.
+V9. **Time-Specific Alerts:** Users will receive alerts only within their preferred time window.
 
-V11. **Historical Data of Alerts:** Users may have the option to view the historical data of alerts. 
+V10. **Historical Data of Alerts:** Users may have the option to view the historical data of alerts. 
 
 
 
