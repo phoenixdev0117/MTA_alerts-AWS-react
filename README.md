@@ -15,15 +15,20 @@ For more detailed user stories, view the [Kuban board](https://github.acom/users
 
 - V0: **Basic Project Setup** - Establish the foundational structure
 - V1: **User Login** - Implement user login functionality
-- V2: **Station Alert Subscription** - Enable station-specific alert subscriptions
-- V3: **View Station Alerts** - Users can view alerts from subscribed stations on their dashboard
-- V4: **Unsubscribe from Station Alerts** - Option to unsubscribe from station alerts via the dashboard
-- V5: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
-- V6: **Line Alert Subscription** - Facilitate subscriptions to specific MTA lines
-- V7: **Unsubscribe from Line Alerts** - Feature to cancel line-specific alert subscriptions
-- V8: **Line Alerts via Twilio** - Get line alerts on mobile through Twilio
-- V9: **Time-Specific Alerts** - Receive alerts within a preferred time window
-- V10: **Historical Alert Data** - Access to historical alert data
+- V2: **Users Types** - Create basic and admin user
+- V3: **User Sign Up** - Create basic sign up via email
+- V4: **Station Alert Subscription** - Enable station-specific alert subscriptions
+- V5: **View Station Alerts** - Users can view alerts from subscribed stations on their dashboard
+- V6: **Unsubscribe from Station Alerts** - Option to unsubscribe from station alerts via the dashboard
+- V7: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
+- V8: **Line Alert Subscription** - Facilitate subscriptions to specific MTA lines
+- V9: **Unsubscribe from Line Alerts** - Feature to cancel line-specific alert subscriptions
+- V10: **Line Alerts via Twilio** - Get line alerts on mobile through Twilio
+
+**Stretch Goals** 
+- V11: **User Login with Google** - User can login with Google
+- V12: **Time-Specific Alerts** - Receive alerts within a preferred time window
+- V13: **Historical Alert Data** - Access to historical alert data
 
 ## Tech Overview
 
