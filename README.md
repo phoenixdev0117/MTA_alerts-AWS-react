@@ -4,16 +4,46 @@ An application that allows users to subscribe to specific MTA stations or MTA li
 Frontend is built in React and Backend is Django with Django REST Framework. 
 
 
-# Tech Used 
+# Tech Overview
 ## Backend 
-- Virtual Env
+
+### Framework 
 - Django
 - Django REST Framework 
-- Django Built-in Auth
-- CORS
-- Postgres
-- Python Typing 
 
-## Frontend 
+### Auth
+- Django Admin
+- Django REST Framework Auth Tokens
+- CORS
+
+### Database
+- Postgres
+- Django ORM 
+
+### Testing
+- Pytest
+- Locust (?) for performance testing
+
+### Environment 
+- Virtual Env
+- DotEnv
+
+### Typing
+- Python Typing
+
+## Frontend
+
+### Framework 
 - React
-- ky: Javascript HTTP client library 
+
+### Javascript HTTP Client 
+- ky
+
+### Testing 
+- Jest
+
+## Infrastructure 
+- AWS 
+- Code Deploy 
+  
+## CI/CD
