@@ -1,7 +1,7 @@
 # Project Overview 
 An application that allows users to subscribe to specific MTA stations or MTA lines and receive service alerts. 
 
-Frontend is built in React and Backend is Django with Django REST Framework. The application uses Auth Tokens for authorization
+Frontend is built in React and Backend is Django with Django REST Framework. The application uses Auth Tokens for authorization. 
 
 ## Milestones
 Tentative Milestones as of Jan 24th, 2024
