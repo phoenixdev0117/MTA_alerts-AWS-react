@@ -3,7 +3,7 @@ An application that allows users to subscribe to specific MTA stations or MTA li
 
 Frontend is built in React and Backend is Django with Django REST Framework. 
 
-### Milestones
+## Milestones
 
 V1. **Basic Project Setup:** Establish the foundational structure for the project.
 
@@ -80,6 +80,8 @@ V11. **Historical Data of Alerts:** Users may have the option to view the histor
 
 ## Infrastructure 
 - AWS 
-- Code Deploy 
+- EC2
+- S3
   
 ## CI/CD
+- Github or CodeDeploy
