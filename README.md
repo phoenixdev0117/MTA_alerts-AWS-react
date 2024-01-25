@@ -44,6 +44,7 @@ For more detailed user stories, view the [Kuban board](https://github.acom/users
 - **Testing**: Pytest, Locust (Potential for performance testing)
 - **Environment**: Virtual Env, DotEnv
 - **Formatting and Linting**: PyLint, MyPy, Black
+  - Run `pylint *.py`, `mypy .`, and `black .` in `backend/`
 - **Typing**: Python Typing
 
 ### Frontend
