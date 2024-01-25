@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
