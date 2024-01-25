@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import authService from "../../services/authService";
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import authService from '../../services/authService'
 
 function LoginForm() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const navigate = useNavigate();
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
+  const navigate = useNavigate()
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+    event.preventDefault()
     try {
-      const response = await authService.login(username, password);
-      console.log("Login successful:", response);
-      navigate('/home');
+      const response = await authService.login(username, password)
+      console.log('Login successful:', response)
+      navigate('/')
     } catch (error) {
-      console.error("Login failed:", error);
-      throw error;
+      console.error('Login failed:', error)
+      throw error
     }
-  };
+  }
 
   return (
     <form onSubmit={handleSubmit} className="w-full max-w-xs mx-auto my-10">
@@ -48,7 +48,7 @@ function LoginForm() {
         </button>
       </div>
     </form>
-  );
+  )
 }
 
-export default LoginForm;
+export default LoginForm
