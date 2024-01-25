@@ -1,0 +1,13 @@
+name: 'Enforce Branch Names'
+on: [push, pull_request]
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check Branch Name
+      run: |
+        if [[ ! $GITHUB_REF =~ ^refs/heads/STMA-[0-9]+$ ]]; then
+          echo "Branch name does not follow the 'STMA-<issue_number>' pattern"
+          exit 1
+        fi
