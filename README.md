@@ -53,7 +53,7 @@ For more detailed user stories, view the [Kuban board](https://github.acom/users
 - **CSS Framework**: Tailwind
 - **Package Management**: NPM
 - **HTTP Client**: ky
-- **Linting**: ESLint
+- **Formatting and Linting** ESLint, Prettier
 - **Testing**: Jest
 
 ### Infrastructure 
