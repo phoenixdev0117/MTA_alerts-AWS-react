@@ -43,7 +43,7 @@ For more detailed user stories, view the [Kuban board](https://github.acom/users
 - **Database**: PostgreSQL, Django ORM
 - **Testing**: Pytest, Locust (Potential for performance testing)
 - **Environment**: Virtual Env, DotEnv
-- **Linting**: PyLint
+- **Formatting and Linting**: PyLint, MyPy, Black
 - **Typing**: Python Typing
 
 ### Frontend
