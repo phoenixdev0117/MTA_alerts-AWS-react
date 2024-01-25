@@ -1,5 +1,4 @@
 # Subscribe to MTA Alerts
-test change
 
 ## Project Overview 
 This application enables users to subscribe to MTA stations or lines to receive timely service alerts.
