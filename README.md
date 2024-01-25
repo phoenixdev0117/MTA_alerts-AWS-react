@@ -22,40 +22,43 @@ For more detailed user stories, view the [Kuban board](https://github.acom/users
 - V4: **Station Alert Subscription** - Enable station-specific alert subscriptions
 - V5: **View Station Alerts** - Users can view alerts from subscribed stations on their dashboard
 - V6: **Unsubscribe from Station Alerts** - Option to unsubscribe from station alerts via the dashboard
-- V7: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
-- V8: **Line Alert Subscription** - Facilitate subscriptions to specific MTA lines
-- V9: **Unsubscribe from Line Alerts** - Feature to cancel line-specific alert subscriptions
-- V10: **Line Alerts via Twilio** - Get line alerts on mobile through Twilio
+- V7: **Admin User Controls** - Admin user controls overs users and alerts
+- V8: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
+- V9: **Line Alert Subscription** - Facilitate subscriptions to specific MTA lines
+- V10: **Unsubscribe from Line Alerts** - Feature to cancel line-specific alert subscriptions
+- V11: **Line Alerts via Twilio** - Get line alerts on mobile through Twilio
 
 **Stretch Goals** 
-- V11: **User Login with Google** - User can login with Google
-- V12: **Time-Specific Alerts** - Receive alerts within a preferred time window
-- V13: **Historical Alert Data** - Access to historical alert data
+- V12: **User Login with Google** - User can login with Google
+- V13: **Time-Specific Alerts** - Receive alerts within a preferred time window
+- V14: **Historical Alert Data** - Access to historical alert data
 
 ## Tech Overview
 
 ### Backend 
 
 - **Framework**: Django, Django REST Framework
-- **Packages**: PIP
+- **Package Management**: PIP
 - **Authentication**: Django Admin, Django REST Framework Auth Tokens, CORS
 - **Database**: PostgreSQL, Django ORM
 - **Testing**: Pytest, Locust (Potential for performance testing)
 - **Environment**: Virtual Env, DotEnv
+- **Linting**: PyLint
 - **Typing**: Python Typing
 
 ### Frontend
 
 - **Framework**: React with TypeScript
 - **CSS Framework**: Tailwind
-- **Packages**: NPM
+- **Package Management**: NPM
 - **HTTP Client**: ky
+- **Linting**: ESLint
 - **Testing**: Jest
 
 ### Infrastructure 
 
 - **Platforms**: AWS
-- **Services**: EC2, S3
+- **Services**: EC2, S3, IAM, EBS
 
 ### CI/CD
 
