@@ -6,5 +6,5 @@ As a user, I...
 
 ##  Testing 
 - [ ] Outline of possible test for story
-- [ ] test example 2
-- [ ] test example 3
+- [ ] Test example 2
+- [ ] Test example 3
