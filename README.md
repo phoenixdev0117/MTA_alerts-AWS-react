@@ -56,6 +56,7 @@ For more detailed user stories, view the [Kuban board](https://github.acom/users
 - **Formatting and Linting** ESLint, Prettier
   - Run `npx eslint .` and `npm run prettier`
 - **Testing**: Jest
+- **Misc**: Flexbox, AwesomeFont
 
 ### Infrastructure 
 
