@@ -7,6 +7,10 @@
     @apply bg-[#1f2025] text-white text-xl p-4 text-center font-bold shadow-md;
   }
 
+  .header-2 {
+    @apply text-lg text-black px-4 py-2;
+  }
+
   .footer {
     @apply bg-[#2f313a] text-white text-center p-4 text-sm;
   }
@@ -16,6 +20,6 @@
   }
 
   .nav-link {
-    @apply hover:text-blue-300;
+    @apply text-lg hover:text-blue-300;
   }
 }
