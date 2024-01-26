@@ -11,7 +11,7 @@ This application enables users to subscribe to MTA stations or lines to receive 
 
 ## Milestones
 
-For more detailed user stories, view the [Kuban board](https://github.acom/users/MackHalliday/projects/3).
+For more detailed user stories, view the [Kanban board](https://github.acom/users/MackHalliday/projects/3).
 
 **Current Milestones (As of Jan 24th, 2024):**
 
