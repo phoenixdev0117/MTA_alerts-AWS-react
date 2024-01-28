@@ -1,5 +1,7 @@
 # Subscribe to MTA Alerts
 
+👷‍♀️ MVP In Progress 👷‍♀️
+
 ## Project Overview 
 This application enables users to subscribe to MTA stations or lines to receive timely service alerts.
 
@@ -66,3 +68,9 @@ For more detailed user stories, view the [Kanban board](https://github.acom/user
 ### CI/CD
 
 - **Tools**: GitHub or AWS CodeDeploy
+  
+## Project Resources 
+- [**Awesome Django**](https://github.com/shahraizali/awesome-django?tab=readme-ov-file#crm): For Django Packages
+- [**Black, MyPy, and Pylint**](https://lynn-kwong.medium.com/use-black-mypy-and-pylint-to-make-your-python-code-more-professional-b594512f4362): Article on how to setup Black, MyPy, and Pylint for project
+- [**Django-Docker-Quickstart**](https://github.com/godd0t/django-docker-quickstart): Github repo example of Django and Docker
+- [**Vite**](https://vitejs.dev/guide/): Vite documentation
