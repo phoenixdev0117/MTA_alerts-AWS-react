@@ -14,6 +14,9 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Copy the Django project
 COPY . .
 
+# Run migrations 
+RUN python manage.py migrate
+
 # Expose the port the app runs on
 EXPOSE 8000
 

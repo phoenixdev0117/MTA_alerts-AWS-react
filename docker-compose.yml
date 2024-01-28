@@ -1,5 +1,16 @@
 version: '3.8'
 services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: subscribe_to_mta_alerts
+      POSTGRES_USER: []
+      POSTGRES_PASSWORD: []
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
   frontend:
     build: ./frontend
     ports:
@@ -7,6 +18,7 @@ services:
     volumes:
       - ./frontend:/app
       - /app/node_modules
+
   backend:
     build: ./backend
     ports:
@@ -14,4 +26,7 @@ services:
     volumes:
       - ./backend:/app
     depends_on:
-      - frontend
+      - db
+
+volumes:
+  postgres_data:
