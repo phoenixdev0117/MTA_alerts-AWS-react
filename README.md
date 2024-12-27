@@ -1,6 +1,8 @@
 # Subscribe to MTA Alerts
 
-🚧 MVP In Progress 🚧
+
+👷‍♀️ MVP In Progress 👷‍♀️
+
 
 ## Project Overview 
 This application enables users to subscribe to MTA stations or lines to receive timely service alerts.
