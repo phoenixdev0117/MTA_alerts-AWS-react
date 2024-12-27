@@ -1,6 +1,8 @@
 # Subscribe to MTA Alerts
 
+
 👷‍♀️ MVP In Progress 👷‍♀️
+
 
 ## Project Overview 
 This application enables users to subscribe to MTA stations or lines to receive timely service alerts.
@@ -17,15 +19,18 @@ For more detailed user stories, view the [Kanban board](https://github.acom/user
 
 **Current Milestones (As of Jan 24th, 2024):**
 
-- V0: **Basic Project Setup** - Establish the foundational structure
-- V1: **User Login** - Implement user login functionality
+**MVP**
+- 🛠️ V0: **Basic Project Setup** - Establish the foundational structure
+- 🛠️ V1: **User Login** - Implement user login functionality
 - V2: **Users Types** - Create basic and admin user
 - V3: **User Sign Up** - Create basic sign up via email
 - V4: **Station Alert Subscription** - Enable station-specific alert subscriptions
 - V5: **View Station Alerts** - Users can view alerts from subscribed stations on their dashboard
 - V6: **Unsubscribe from Station Alerts** - Option to unsubscribe from station alerts via the dashboard
-- V7: **Admin User Controls** - Admin user controls overs users and alerts
-- V8: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
+- V7: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
+
+**Additional Alerts** 
+- V8: **Admin User Controls** - Admin user controls overs users and alerts
 - V9: **Line Alert Subscription** - Facilitate subscriptions to specific MTA lines
 - V10: **Unsubscribe from Line Alerts** - Feature to cancel line-specific alert subscriptions
 - V11: **Line Alerts via Twilio** - Get line alerts on mobile through Twilio
