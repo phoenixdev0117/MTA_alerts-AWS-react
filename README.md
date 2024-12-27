@@ -1,6 +1,7 @@
 # Subscribe to MTA Alerts
 
 
+
 ### Milestones
 
 V1. **Basic Project Setup:** Establish the foundational structure for the project.
@@ -14,6 +15,7 @@ V8. **Unsubscribe from Line Alerts:** Users can cancel their subscriptions to sp
 V9. **Receive Line Alerts via Twilio:** Users can get line alerts on their phone through Twilio.
 V10. **Time-Specific Alerts:** Users will receive alerts only within their preferred time window.
 V11. **Historical Data of Alerts:** Users may have the option to view the historical data of alerts. 
+
 
 
 
@@ -53,6 +55,7 @@ For more detailed user stories, view the [Kanban board](https://github.acom/user
 - V4: **Station Alert Subscription** - Enable station-specific alert subscriptions
 - V5: **View Station Alerts** - Users can view alerts from subscribed stations on their dashboard
 - V6: **Unsubscribe from Station Alerts** - Option to unsubscribe from station alerts via the dashboard
+
 - V7: **Station Alerts via Twilio** - Receive station alerts on mobile through Twilio integration
 
 **Additional Alerts** 
@@ -70,6 +73,7 @@ For more detailed user stories, view the [Kanban board](https://github.acom/user
 
 ### Packages 
 - NPM
+
 
 **Stretch Goals** 
 - V12: **User Login with Google** - User can login with Google
