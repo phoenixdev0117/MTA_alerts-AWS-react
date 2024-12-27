@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const AboutPage: React.FC = () => {
@@ -34,6 +35,7 @@ const AboutPage: React.FC = () => {
       </section>
     </div>
   )
+
 }
 
 export default AboutPage

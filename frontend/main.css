@@ -1,0 +1,33 @@
+@layer components {
+  .header {
+    @apply bg-blue-700 text-white text-xl p-4 text-center font-bold shadow-md;
+  }
+
+  .status-card {
+    @apply border border-gray-300 rounded-lg p-4 m-2;
+  }
+
+  .status-card-title {
+    @apply font-semibold text-lg;
+  }
+
+  .status-good {
+    @apply text-green-500;
+  }
+
+  .status-bad {
+    @apply text-red-500;
+  }
+
+  .footer {
+    @apply bg-gray-800 text-white text-center p-4 text-sm;
+  }
+
+  .nav-bar {
+    @apply flex justify-center space-x-4 bg-gray-700 p-3 text-white;
+  }
+
+  .nav-link {
+    @apply hover:text-blue-300;
+  }
+}

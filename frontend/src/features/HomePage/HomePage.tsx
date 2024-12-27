@@ -1,3 +1,4 @@
+
 import LoginForm from '../../components/LoginForm/LoginForm'
 import React from 'react'
 
@@ -12,6 +13,7 @@ const HomePage: React.FC = () => {
       <LoginForm />
     </div>
   )
+
 }
 
 export default HomePage
