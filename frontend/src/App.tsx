@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Header from './components/BaseComponents/Header'
 import Footer from './components/BaseComponents/Footer'
@@ -18,3 +19,4 @@ const App: React.FC = () => {
 }
 
 export default App
+

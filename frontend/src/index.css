@@ -4,6 +4,7 @@
 
 
 
+
 /* TODO what should be standard tailwind classes in app?  */
 
 @layer components {
@@ -28,6 +29,7 @@
   .nav-link {
 
     @apply text-lg hover:text-blue-300;
+
 
   }
 }
