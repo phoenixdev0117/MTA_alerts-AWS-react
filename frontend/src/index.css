@@ -3,16 +3,33 @@
 @tailwind utilities;
 
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* TODO what should be standard tailwind classes in app?  */
+
+@layer components {
+  .header {
+    @apply bg-[#1f2025] text-white text-xl p-4 text-center font-bold shadow-md;
+  }
+
+
+  /* .page-header {
+    @apply text-lg text-black px-4 py-2;
+  } */
+
+
+  .footer {
+    @apply bg-[#2f313a] text-white text-center p-4 text-sm;
+  }
+
+  .nav-bar {
+    @apply flex justify-center space-x-4 bg-[#f3f3f3] p-3 text-black;
+  }
+
+  .nav-link {
+
+    @apply text-lg hover:text-blue-300;
+
+
+  }
 }

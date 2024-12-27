@@ -1,20 +1,21 @@
-import ky from "ky";
-const apiUrl = process.env.REACT_APP_API_URL;
+
+import ky from 'ky'
+const apiUrl = import.meta.env.VITE_API_URL
 
 interface LoginResponse {
-  token: string;
+  token: string
 }
 
-const login = async (username:string, password:string) => {
-  const response : LoginResponse = await ky
+const login = async (username: string, password: string) => {
+  const response: LoginResponse = await ky
     .post(`${apiUrl}/api-token-auth/`, {
       json: { username, password },
     })
-    .json();
-  const token = response.token;
-  console.log(token);
-};
+    .json()
+  const token = response.token
+  console.log(token)
+}
 
 export default {
   login,
-};
+}

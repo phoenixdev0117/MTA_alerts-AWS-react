@@ -1,0 +1,5 @@
+; [MASTER]
+[MESSAGE CONTROL]
+disable=
+    C0111, # missing-module-docstring
+    import-outside-toplevel, 

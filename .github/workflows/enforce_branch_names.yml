@@ -1,0 +1,22 @@
+name: 'Branch Name Check on PR'
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch name
+        run: |
+          BRANCH_NAME=${GITHUB_HEAD_REF}
+          PATTERN="^stma-[0-9]+"
+
+          if [[ ! $BRANCH_NAME =~ $PATTERN ]]; then
+            echo "Invalid branch name: $BRANCH_NAME"
+            echo "Branch name does not follow the 'stma-xxx' pattern"
+            exit 1
+          else
+            echo "Branch name $BRANCH_NAME is valid."
+          fi
