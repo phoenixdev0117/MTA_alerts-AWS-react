@@ -1,9 +1,11 @@
 import LoginForm from '../../components/LoginForm/LoginForm'
 
-function LoginPage() {
+import React from 'react'
+
+const LoginPage: React.FC = () => {
   return (
     <div>
-      {' '}
+
       <LoginForm />
     </div>
   )
